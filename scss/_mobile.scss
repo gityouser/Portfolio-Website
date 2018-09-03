@@ -43,11 +43,22 @@
 
         .portrait {
             background: url('../img/portrait-me.png');
+            background-size: 100%;
             background-position: 40% 24%;
 
             width: 150px;
             height: 150px;
         }
+    }
+
+    .about-info {
+        grid-template-areas: 
+        'bioimage'
+        'bio'
+        'job1'
+        'job2'
+        'job3';
+        grid-template-columns: 1fr;
     }
 }
 
